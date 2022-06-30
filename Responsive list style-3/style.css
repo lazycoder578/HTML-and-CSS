@@ -1,0 +1,36 @@
+.box-1{
+    border:2px dotted #333;
+    padding:20px;
+    margin:20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.box-1 h1{
+    text-align: center;
+}
+.box-1 p{
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.categories{
+    border:2px solid #333;
+    margin:20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: aliceblue;
+}
+.categories h2{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.categories ul{
+    padding: 20px;
+    list-style: square;
+    /* list-style: none; */
+}
+.categories ul li{
+    border-bottom: 1px dotted #333;
+}
