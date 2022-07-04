@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top,rgba(230,33,66),pink);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px white,
+                0 0 30px white,
+                0 0 30px white inset;
+ color: white;
+
+}
+div:hover{
+    transition: all .3s linear;
+    transform: scale(1.4);
+}
