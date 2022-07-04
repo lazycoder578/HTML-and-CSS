@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to top,blue,lightblue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+div{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    transition: all .3s linear;
+}
+div h2,p{
+    transition: all .3s linear;
+}
+div h2:hover{
+    transform: scale(1.4);
+
+}
+div p:hover{
+    transform: scale(1.4);
+}
