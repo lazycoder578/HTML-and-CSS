@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+    /* transform: rotate(30deg); */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateY(45deg); */
+
+    /* transform: scale(2); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scale(2,4); */
+
+    /* transform: translate(50px); */
+    /* transform: translate(-50px); */
+    /* transform: translateX(50px); */
+    /* transform: translateY(50px); */
+    /* transform: skew(30deg); */
+    /* transform: skewY(30deg); */
+
+}
+
+div:hover{
+    cursor: pointer;
+    transition: all 2s linear;
+    /* transform: rotate(360deg); */
+    /* transform: rotateX(360deg); */
+    /* transform: rotateY(360deg); */
+    transform: rotate(-360deg);
+}
